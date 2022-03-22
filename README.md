@@ -5,6 +5,8 @@ Pawn Simulator written in ionic5
 
 Environment: ionic, cordova
 (App is using latest stable version of angular)
+
+
 Note: Please check the screenshot of running app in the root of source-code.
 
 Clone this Repo
