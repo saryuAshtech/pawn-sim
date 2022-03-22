@@ -1,0 +1,10 @@
+/.git
+/node_modules
+/www
+/.gradle
+/android
+/ios
+/tsconfig.app.json
+/tsconfig.json
+/tsconfig.spec.json
+/tslint.json
