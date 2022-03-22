@@ -19,10 +19,11 @@ In root of the app run npm install
 
 Use following commands to make prod builds
 
+```
 > npm run build-ios
 > npm run build-android
 > npm run build
-
+```
 ---
 
 Test cases.
