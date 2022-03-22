@@ -1,15 +1,15 @@
 Pawn Simulator written in ionic5
-Note: Please check the screenshot of running app in the root of source-code.
 ---
 
 ## Installation
 
 Environment: ionic, cordova
 (App is using latest stable version of angular)
+Note: Please check the screenshot of running app in the root of source-code.
 
 Clone this Repo
 
-> \$ git clone https://github.com/bhandaribhumin/Pawn-Simulator-ionic.git
+> \$ git clone 
 
 In root of the app run npm install
 
