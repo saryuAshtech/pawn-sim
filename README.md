@@ -129,10 +129,10 @@ iii.
 
 * Coding practices used in the app.
 
- > Added and use reusable CSS variables
- > Lazily loaded modules
- > Split code into several parts
- > Optimized code
+ - Added and use reusable CSS variables
+ - Lazily loaded modules
+ - Split code into several parts
+ - Optimized code
  > Used eslint
  > Clean and formatted code with no consoles and unused code.
  > Added short commands to run and make app builds
