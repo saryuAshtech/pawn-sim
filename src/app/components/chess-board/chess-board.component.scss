@@ -1,0 +1,99 @@
+@import '../../../theme/variables.scss';
+
+div.no-pawn {
+  width: 50px;
+  height: 50px;
+  background: #666;
+}
+
+div.has-pawn {
+  width: 50px;
+  height: 50px;
+  background: $red;
+}
+
+#pawn {
+  width: 12%;
+  height: 9%;
+  border-radius: 100%;
+  position: absolute;
+  display: none;
+}
+
+#reportLog {
+  text-align: center;
+} 
+
+#board-view {
+  width: 800px;
+  height: 800px;
+  position: relative;
+  background-image: -moz-linear-gradient(
+      45deg,
+      $board-color 25%,
+      transparent 26%,
+      transparent 75%,
+      $board-color 75%,
+      $board-color 100%
+    ),
+    -moz-linear-gradient(45deg, $board-color 25%, transparent 26%, transparent
+          75%, $board-color 75%, $board-color 100%);
+  background-image: -webkit-linear-gradient(
+      45deg,
+      $board-color 25%,
+      transparent 26%,
+      transparent 75%,
+      $board-color 75%,
+      $board-color 100%
+    ),
+    -webkit-linear-gradient(45deg, $board-color 25%, transparent 26%, transparent
+          75%, $board-color 75%, $board-color 100%);
+  -moz-background-size: 200px 200px;
+  background-size: 200px 200px;
+  -webkit-background-size: 200px 200px;
+  background-position: 0 0, 100px 100px;
+  border: 1px solid $board-color;
+  border-radius: 4px;
+  margin: 0px auto;
+}
+
+.North {
+  background: url('/assets/pawns/n.svg') no-repeat left top;
+  transform: $transform-pawn;
+  transform-style: preserve-3d;
+}
+
+.South {
+  background: url('/assets/pawns/s.svg') no-repeat left top;
+  transform: $transform-pawn;
+  transform-style: preserve-3d;
+}
+
+.East {
+  background: url('/assets/pawns/e.svg') no-repeat left top;
+  transform: $transform-pawn;
+  transform-style: preserve-3d;
+}
+.West {
+  background: url('/assets/pawns/w.svg') no-repeat left top;
+  transform: $transform-pawn;
+  transform-style: preserve-3d;
+}
+
+.edge {
+  animation-name: color;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color {
+  0% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: $red;
+  }
+  100% {
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,9 @@
+@import '../../../theme/variables.scss';
+
+h2 {
+  margin-top: 45px;
+}
+.input {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.75), $black 120%);
+  color: white;
+}
